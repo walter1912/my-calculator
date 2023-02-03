@@ -1,0 +1,75 @@
+body {
+  background: linear-gradient(to right, #00AAFF, #00FF6C);
+}
+.cover {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: linear(to right, #fad, #fda);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.history {
+  height: 600px;
+  min-width: 200px;
+  background-color: #ccc;
+  border: 1px solid #000;
+}
+.app-grid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100px auto;
+  width: 400px;
+  height: 600px;
+  background-color: #999;
+  color: #fff;
+}
+.grid-item {
+  border: 1px solid #fff;
+}
+.output {
+  padding:0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+ 
+}
+.output .preLine {
+  color: #fff;
+  font-size: 120%;
+}
+.output .currentLine {
+  color: #fff;
+  font-size: 200%;
+}
+.keyboard {
+  display: grid;
+  grid-template-columns:100px 100px 100px 100px;
+}
+.keyboard .key-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  background-color: #488FB1;
+  color: #fff;
+  font-size: 20px;
+}
+.key-item:hover{
+  color: #0a4e6d;
+  background-color: #ccc;
+}
+.ac {
+  color: yellow;
+  grid-column-end: 2 span;
+}
+.evalute {
+  grid-column-end: 2 span;
+}
+
+.history-list > li:nth-last-child(1){
+  color: #00AAFF;
+}
